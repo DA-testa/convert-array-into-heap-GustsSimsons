@@ -51,7 +51,7 @@ def main():
             for i in m:
                 m2.append(int(i))
 
-            assert len(data) == n
+            assert len(m2) == n
             swaps = build_heap(m2)
             print(len(swaps))
             for i, j in swaps:
