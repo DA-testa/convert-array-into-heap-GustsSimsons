@@ -35,7 +35,7 @@ def main():
         data = list(map(int, input().split()))
         assert len(data) == n
         swaps = build_heap(data)
-        print(len(swaps), end=' ')
+        print(len(swaps))
         for i, j in swaps:
             print(i, j, end=' ')
     elif 'F' in inputs:
