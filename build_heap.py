@@ -37,7 +37,7 @@ def main():
         swaps = build_heap(data)
         print(len(swaps))
         for i, j in swaps:
-            print(i, j, end=' ')
+            print(i, j)
     elif 'F' in inputs:
         file = input()
         file = "tests/" + file
